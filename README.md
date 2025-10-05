@@ -42,7 +42,7 @@ feedback_project/
 
 Create a virtual environment:
 --------------------------------
-python -m venv venv
+python -m venv env
 
 source env/bin/activate  # Linux/macOS
 
