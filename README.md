@@ -89,22 +89,24 @@ npm run build
 Output goes to frontend/dist/
 
 🔧 Features
+-----------------------------
 
-Submit feedback with name and message.
+* Submit feedback with name and message.
 
-View all feedback below the form.
+* View all feedback below the form.
 
-Works locally and in production seamlessly.
+* Works locally and in production seamlessly.
 
-Single Page Application (SPA) using React + Vite.
+* Single Page Application (SPA) using React + Vite.
 
 📌 Notes
+-----------------------------------
 
-For development, React dev server (npm run dev) proxies API calls to Django backend.
+* For development, React dev server (npm run dev) proxies API calls to Django backend.
 
-For production, Django serves the built React app from frontend/dist.
+* For production, Django serves the built React app from frontend/dist.
 
-Can replace SQLite with PostgreSQL for production.
+* Can replace SQLite with PostgreSQL for production.
 
 
 
