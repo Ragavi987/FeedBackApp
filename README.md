@@ -43,7 +43,9 @@ feedback_project/
 Create a virtual environment:
 --------------------------------
 python -m venv venv
+
 source env/bin/activate  # Linux/macOS
+
 env\Scripts\activate     # Windows
 
 Install dependencies:
