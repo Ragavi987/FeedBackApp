@@ -18,7 +18,6 @@ Users can submit feedback and view all submitted feedback in real-time.
 **Database:**  
 - SQLite (default for development; can switch to PostgreSQL in production)  
 
--------------------------------------------------------
 **Project Structure**
 feedback_project/
 │
@@ -36,7 +35,7 @@ feedback_project/
 │
 ├── requirements.txt
 └── README.md
--------------------------------------------------------------
+
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Backend Setup
@@ -60,7 +59,7 @@ Backend runs on: http://127.0.0.1:8000/
 
 API endpoint: http://127.0.0.1:8000/api/feedbacks/
 Backend API available at /api/feedbacks/.
---------------------------------------------------------
+
 
 2️⃣ Frontend Setup (React + Vite)
 
@@ -88,7 +87,7 @@ Build production files for deployment:
 npm run build
 
 Output goes to frontend/dist/
------------------------------------------------------------
+
 🔧 Features
 
 Submit feedback with name and message.
